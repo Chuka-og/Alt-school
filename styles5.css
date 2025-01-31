@@ -1,0 +1,205 @@
+body{
+    background: #FBF8EF;
+    font-family: "Poppins", sans-serif;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 770px;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.checkout{
+    height: 90vh;
+    width: 700px;
+    background-color: white;
+    border-radius: 2%;
+    margin-left: 25%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 450px 250px;
+}
+
+.basic-info{
+   background-color: white;
+}
+
+.para-edit1{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.para-edit2{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 15px;
+
+    @media (min-width:768px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+.form-group{
+    label{
+        display: block;
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
+
+    .form-element{
+        appearance: none;
+        outline: none;
+        border: none;
+        display: block;
+        width: 100%;
+        height: 27px;
+        background-color: #F2EFE7;
+        transition: 0.4s;
+    }
+
+    textarea{
+        resize: none;
+        min-height: 100px;
+    }
+
+    &.full{
+        grid-column: 1/-1;
+    }
+
+}
+
+.submit{
+    grid-column: 1/-1;
+
+    input[type="submit"]{
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+        padding: 12px 10px;
+        background-color: #118B50;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+        width: 420px;
+
+    }
+}
+
+hr{
+    border-top:30px;
+}
+
+.support-paragraph{
+    font-size: 10px;
+    text-align: center;
+}
+
+.support-paragraph span{
+    font-weight: bold;
+}
+
+.button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 12px 10px;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s;
+    width: 100px;
+    height: 20px;
+    line-height: 0.6;
+    font-size: 0.5rem;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.freelancer{
+    background-color: #577BC1;
+}
+
+.freelancer hr{
+    width: 80%;
+}
+
+.price{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.price span{
+    font-size: 2rem;
+}
+
+.options{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.plans{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.customer-support{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.customer-support img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.customer-support span{
+    margin-left: 10px;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+

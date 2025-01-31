@@ -1,0 +1,127 @@
+body{
+    background-color: #B1F0F7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+}
+
+.first{
+    height: 200px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.first p{
+    font-size: 0.8rem;
+}
+
+.second{
+    background-color: white;
+    height: 750px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    /*display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px;
+    gap: 10px;*/
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 16px;
+
+    @media (min-width:768px){
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+.main-form{
+
+    &.activity{
+        grid-column: 1/-1;
+    }
+
+    label{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+    }
+
+    .form-element{
+        appearance: none;
+        outline: none;
+        border: none;
+        display: block;
+        width: 100%;
+        border-radius: 2px;
+        border: 1px solid gray;
+        transition: 0.4s;
+        height: 30px;
+    }
+
+        .form-element:focus{
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+            background-color:azure;
+        }
+    }
+
+    textarea,option{
+        resize: none;
+        min-height: 100px;
+    }
+
+
+.submit{
+    grid-column: 1/-1;
+
+    input[type="submit"]{
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+
+        padding: 10px 10px;
+        background-color: #79D7BE;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover{
+            background-color: aquamarine;
+        }
+    
+    }
+}
+
+.policy{
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+span{
+    text-decoration: underline;
+    color: #79D7BE;
+}
+
+
+
+
+
+
+
+

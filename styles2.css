@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-section{
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.Intro{
+    height: 270px;
+    width: 31%;
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+
+.Intro h1{
+    padding: 20px;
+}
+
+.Intro p{
+    padding: 20px;
+}
+
+span{
+    color: green
+}
+
+.bottom-section{
+    background-color: gray;
+    height: 500px;
+}
+
+.bottom-section-writeup{
+    background-color: white;
+    height: 350px;
+    width: 60%;
+    margin-left: 20%;
+    position: absolute;
+    top:480px;
+    border-bottom: 10px solid darkgrey;
+}
+
+.bottom-section-writeup p{
+    padding: 35px;
+    margin-top: 100px;
+}
+
+.yellow-banner{
+    background-color: #F0A04B;
+    height: 90px;
+    width: 500px;
+    position:relative;
+    top: 88px;
+    left: 250px;
+    border-bottom: 7px solid darkgoldenrod;
+
+}
+
+.yellow-banner h1{
+    padding: 30px;
+}
+
+
+
+@media(min-width:375px) and (max-width:667px){
+    .main-section{
+        height: 300px;
+        width: 100%;
+        border: 2px solid red;
+    }
+
+    .Intro{
+        height: 270px;
+        width: 60%;
+        position: relative;
+        top: 50px;
+        left: 75px;
+    }
+
+    .Intro h1{
+        padding: 10px;
+    }
+    
+    .Intro p{
+        padding: 10px;
+    }
+
+    .bottom-section{
+        background-color: gray;
+        height: 410px;
+    }
+
+    .bottom-section-writeup{
+        background-color: white;
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        top:350px;
+        border-bottom: 10px solid darkgrey;
+        margin-left: 0;
+    }
+
+    .bottom-section-writeup p{
+        padding: 50px;
+        margin-top: 50px;
+        font-size: 0.8rem;
+    }
+
+    .yellow-banner{
+        background-color: #F0A04B;
+        height: 50px;
+        width: 320px;
+        position:relative;
+        top: 46px;
+        left: 0;
+        border-bottom: 7px solid darkgoldenrod;
+    
+    }
+
+    .yellow-banner h1{
+        padding: 15px;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media(min-width:1024px) and (max-width:1366px){
+
+    .main-section{
+        height: 350px;
+        width: 100%;
+        border: 2px solid red;
+    }
+
+    .Intro{
+        height: 300px;
+        width: 40%;
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+
+    .Intro h1{
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .Intro p{
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    
+
+    .bottom-section-writeup{
+        background-color: white;
+        height: 350px;
+        width: 100%;
+        margin-left: 0;
+        position: absolute;
+        top:410px;
+        border-bottom: 10px solid darkgrey;
+    }
+
+    .bottom-section-writeup p{
+        padding: 30px;
+        margin-top: 100px;
+        font-size: 1.5rem;
+    }
+
+    .yellow-banner{
+        background-color: #F0A04B;
+        height: 90px;
+        width: 500px;
+        position:relative;
+        top: 67px;
+        left: 0;
+        border-bottom: 7px solid darkgoldenrod;
+    
+    }
+
+
+
+
+     
+
+}
