@@ -32,6 +32,15 @@ p{
     border-radius: 10%;
     top: 15px;
     left: 460px;
+
+   
+}
+
+@media (min-width:365px) and (max-width:667px){
+    .ribbon{
+        left: 120px;
+    }
+
 }
 
 .ribbon h3{
